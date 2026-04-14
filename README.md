@@ -39,7 +39,7 @@ AI Framework:
 ### 1. Clone the Repository
 
 ```bash
-git clone 
+git clone https://github.com/PrincewillEke/AI-Stock-Analysis-Assistant.git
 cd ai-stock-analysis-assistant
 ```
 
@@ -50,6 +50,11 @@ cd backend
 uv sync
 uv run python main.py
 ```
+
+Create a .env file inside the backend folder:
+In the .env file: 
+
+OPENAI_API_KEY=your_api_key_here
 
 Backend runs at: http://localhost:8888
 
@@ -63,6 +68,14 @@ npm run dev
 
 Frontend runs at: http://localhost:5173
 
+## Example Prompts 
+
+Try asking:
+- What is the current stock price of AAPL?
+- Visualize the closing prise of Tesla over the last 6 months.
+- Show me recent news about NVIDIA.
+- Compare NVIDIA and AMD using graphs and statistics. 
+- Should I buy, sell, or hold Amazon stock?
 
 
 

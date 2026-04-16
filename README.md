@@ -2,6 +2,24 @@
 
 An AI-powered stock analysis assistant built with FastAPI, LangChain, and yFinance. This project allows users to interact with stock market data through a conversational interface, combining real-time financial data retrieval with AI-generated insights.
 
+## Screenshots
+
+### Stock Price Lookup
+
+![Stock Price](screenshots/stock-card-price.png)
+
+### Historial Price Visualization
+
+![Price Chart](screenshots/price-chart.png)
+
+### AI-Based Recommendation
+
+![Recommendation](screenshots/stock-recommendation.png)
+
+### Multi-Stock Comparison
+
+![Comparison](screenshots/stock-comparison.png)
+
 ## Features 
 
 - Retrieve current stock prices
@@ -20,7 +38,6 @@ Frontend:
 - Vite
 - Thesys GenUI SDK
 - TypeScript
-- CSS
 
 Backend: 
 
@@ -29,10 +46,10 @@ Backend:
 - Uvicorn
 - yFinance (financial data)
 
-AI Framework:
+AI / Agent Framework:
 
 - LangChain
-- Thesys API
+- Thesys LLM API
 
 ## Installation & Setup
 
